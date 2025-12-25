@@ -1,48 +1,75 @@
-🎬 ##Netflix Data Analysis
+# Netflix Data Analysis
 
-This is one of my early Data Science projects where I explored the Netflix Movies and TV Shows dataset to understand what kind of content Netflix has, how it has grown over the years, and what trends can be observed.
-The main goal of this project was to practice real-world data analysis using Python, work with a large dataset, create visualizations, and derive meaningful insights instead of just writing code.
+This is one of my early Data Science projects where I explored the Netflix Movies and TV Shows dataset to understand the type of content available on Netflix, how the platform has grown over the years, and the trends that can be observed.
 
-📌 ##What this project does :
+The main goal of this project was to practice real-world data analysis using Python, work with a large dataset, create meaningful visualizations, and derive insights instead of just writing code.
 
-->Compared Movies vs TV Shows on Netflix
+## Project Objectives
 
-->Checked how much Netflix has grown over the years
+- Compare Movies vs TV Shows on Netflix
+- Analyze how Netflix’s content library has grown over the years
+- Identify top content-contributing countries
+- Explore the most common genres
+- Analyze ratings to understand Netflix’s target audience
 
-->Found which countries contribute the most content
+## Dataset Information
 
-->Explored the most common genres
+This project uses the “Netflix Movies and TV Shows” dataset from Kaggle.
 
-->Analyzed the ratings to see what type of audience Netflix mainly targets
+The dataset contains information such as:
+- Title
+- Director
+- Cast
+- Country
+- Release year
+- Rating
+- Duration
+- Genre
 
-🗂️ ##About the Dataset
-I used the “Netflix Movies and TV Shows” dataset from Kaggle.
-It contains information like title, director, cast, country, release year, rating, duration, and genre.
+## Tools and Technologies
 
-🛠️ ##Tools I Used
-->Python
-->Pandas
-->NumPy
-->Matplotlib
-->Seaborn
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
-📊 ##What I Did (Step by Step)
+## Methodology
 
-->Loaded and understood the dataset
-->Cleaned missing values
-->Extracted additional features like year added
-->Performed Exploratory Data Analysis
-->Created meaningful graphs
-->Wrote insights based on the results
+1. Loaded and explored the dataset
+2. Cleaned missing and inconsistent values
+3. Extracted additional features such as year added
+4. Performed Exploratory Data Analysis (EDA)
+5. Created meaningful visualizations
+6. Derived insights from the analysis
 
-📈 ##Key Insights I Found
+## Key Insights
 
-->Netflix has more Movies than TV Shows
-->Content increased massively after 2015
-->USA and India are among the top content contributors
-->Drama, International Movies, and Documentaries are highly common
-->Most shows are rated TV-MA or TV-14, meaning Netflix mainly targets teens and adults
-->Netflix has clearly shifted from being US-centric to becoming a truly global streaming platform
+- Netflix has more Movies than TV Shows
+- Content additions increased significantly after 2015
+- The USA and India are among the top content contributors
+- Drama, International Movies, and Documentaries are the most common genres
+- Most content is rated TV-MA or TV-14, indicating a focus on teens and adults
+- Netflix has shifted from being US-centric to a global streaming platform
 
-Author
+## Setup
+
+1. Clone the repository
+   ```bash
+   git clone <repo-url>
+   cd <repo-folder>
+
+2. Create a virtual environment (optional but recommended)
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On Windows: venv\Scripts\activate
+
+3. Install required dependencies
+   ```bash
+   pip install pandas numpy matplotlib seaborn
+
+4. Run the analysis notebook or script
+
+## Author
+
 Shailesh Kumar
