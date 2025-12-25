@@ -56,8 +56,8 @@ The dataset contains information such as:
 
 1. Clone the repository
    ```bash
-   git clone <>
-   cd <repo-folder>
+   git clone <https://github.com/SHAILUV-prog/Netflix-Data-Analysis.git>
+
 
 2. Create a virtual environment (optional but recommended)
    ```bash
