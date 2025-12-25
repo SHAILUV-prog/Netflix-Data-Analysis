@@ -56,7 +56,7 @@ The dataset contains information such as:
 
 1. Clone the repository
    ```bash
-   git clone <repo-url>
+   git clone <>
    cd <repo-folder>
 
 2. Create a virtual environment (optional but recommended)
