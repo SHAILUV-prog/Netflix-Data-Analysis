@@ -55,14 +55,17 @@ The dataset contains information such as:
 ## Setup
 
 1. Clone the repository
+   ```bash
    git clone <repo-url>
    cd <repo-folder>
 
 2. Create a virtual environment (optional but recommended)
+   ```bash
    python -m venv venv
    source venv/bin/activate   # On Windows: venv\Scripts\activate
 
 3. Install required dependencies
+   ```bash
    pip install pandas numpy matplotlib seaborn
 
 4. Run the analysis notebook or script
